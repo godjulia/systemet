@@ -31,7 +31,7 @@ module.exports = exports = function toProduct($, el) {
 		ecological: b('Ekologisk'),
 		koscher: b('Koscher'),
 		etichal: b('Etiskt'),
-		etichaletic: t('EtisktEtikett'),
+		etichallabel: t('EtisktEtikett'),
 		rawMaterials: b('RavarorBeskrivning')
 	};
 };
