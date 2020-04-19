@@ -18,6 +18,7 @@ module.exports = exports = function toProduct($, el) {
 		startDate: t('Saljstart'),
 		endDate: t('Slutlev'),
 		category: t('Varugrupp'),
+		style: t('stil'),
 		packaging: t('Forpackning'),
 		seal: t('Forslutning'),
 		origin: t('Ursprung'),
@@ -29,6 +30,8 @@ module.exports = exports = function toProduct($, el) {
 		assortment: t('Sortiment'),
 		ecological: b('Ekologisk'),
 		koscher: b('Koscher'),
+		etichal: b('Etiskt'),
+		etichaletic: t('EtisktEtikett'),
 		rawMaterials: b('RavarorBeskrivning')
 	};
 };
